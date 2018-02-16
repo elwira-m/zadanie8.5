@@ -12,10 +12,7 @@ console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is eq
 //second version
 
 var triangleBase = prompt ( 'Enter base of triangle' );
-var triangleHeight = prompt ( 'Enter height of triangle' );
-
-var triangleArea;
-triangleArea = triangleBase*triangleHeight/2;
-//calculate triangle area
+    triangleHeight = prompt ( 'Enter height of triangle' );
+    triangleArea = triangleBase*triangleHeight/2;
 
 console.log('Triangle field is equal to: ' + triangleArea);
